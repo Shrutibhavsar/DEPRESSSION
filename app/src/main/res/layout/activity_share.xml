@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".share">
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine3"
+        android:layout_width="368dp"
+        android:layout_height="598dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text="My Depression In My Life
+Depression is something that shows itself differently for everyone. There is no one person, or one story, or one experience that can make someone universally understand truly  I can’t make anyone understand how it is for everyone, but I can tell you how it alters my life, and maybe that will help people understand how all-encompassing when it breaks through the barriers I have set with the help of years of therapy and medication. There is the gut wrenching loneliness and near constant anxiety and then there is the checking out, the feeling nothing at all, the numbness. Sometimes I don’t know which is worse, but I will try to explain both.But the idea that no one will ever truly understand who I am, or any of that. .The Loneliness and Anxiety:
+
+Because my depression is a part of who I am.And most of all, because I only have one life, and I want to live it. Because even though when my depression spikes it makes me want to not live sometimes, I refuse.
+Because I am the author of my own life and I choose to put a semicolon instead of a period at every point that my depression tells me otherwise.
+So that is how my depression affects my life. That is how I deal with it. Like it or not I always will."
+        android:textSize="17dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="296dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button"
+        android:text="Back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine"
+        app:layout_constraintVertical_bias="1.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Causes">
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine2"
+        android:layout_width="371dp"
+        android:layout_height="614dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="20dp"
+
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text="Common causes include:
+
+Family history. You’re at a higher risk for developing depression if you have a family history of depression or another mood disorder.
+Early childhood trauma. Some events affect the way your body reacts to fear and stressful situations.
+Brain structure. There’s a greater risk for depression if the frontal lobe of your brain is less active. However, scientists don’t know if this happens before or after the onset of depressive symptoms.
+Medical conditions. Certain conditions may put you at higher risk, such as chronic illness, insomnia, chronic pain, or attention-deficit hyperactivity disorder (ADHD).
+Drug use. A history of drug or alcohol misuse can affect your risk.
+
+The symptoms of depression can include:
+
+a depressed mood
+reduced interest or pleasure in activities once enjoyed
+a loss of sexual desire
+changes in appetite
+unintentional weight loss or gain
+sleeping too much or too little
+agitation, restlessness, and pacing up and down
+slowed movement and speech
+fatigue or loss of energy
+feelings of worthlessness or guilt
+difficulty thinking, concentrating, or making decisions
+recurrent thoughts of death or suicide, or an attempt at suicide "
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="304dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="36dp"
+        android:background="@drawable/button"
+        android:text="Back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
